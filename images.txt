@@ -1,2 +1,2 @@
 nginx
-magic4wei/casaos
+python
