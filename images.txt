@@ -2,3 +2,4 @@ nginx
 python
 koishijs/koishi
 portainer/portainer-ce
+kahosan/home-page
