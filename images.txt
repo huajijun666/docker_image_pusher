@@ -1,3 +1,4 @@
 nginx
 python
 koishijs/koishi
+portainer/portainer-ce
