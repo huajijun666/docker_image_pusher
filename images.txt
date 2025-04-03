@@ -1,1 +1,3 @@
 nginx
+githubyumao/mcsmanager-web
+githubyumao/mcsmanager-daemon
