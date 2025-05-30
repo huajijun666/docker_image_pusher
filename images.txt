@@ -1,4 +1,2 @@
 nginx
-githubyumao/mcsmanager-web
-githubyumao/mcsmanager-daemon
---platform=linux/arm/v7 shawly/crafty-web:latest-debian
+--platform=linux/arm64 koishijs/koishi
