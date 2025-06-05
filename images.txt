@@ -4,3 +4,9 @@ nginx
 --platform=linux/arm64 githubyumao/mcsmanager-daemon
 --platform=linux/arm64 bigbeartechworld/big-bear-casaos-user-management
 --platform=linux/arm64 gethomepage/homepage
+--platform=linux/arm64 duplicati/duplicati
+--platform=linux/arm64 alist666/alist
+--platform=linux/arm64 jeessy/ddns-go
+--platform=linux/arm64 cp0204/casamod
+--platform=linux/arm64 cym1102/nginxwebui
+--platform=linux/arm64 louislam/uptime-kuma
