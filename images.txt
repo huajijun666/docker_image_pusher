@@ -2,3 +2,5 @@ nginx
 --platform=linux/arm64 koishijs/koishi
 --platform=linux/arm64 githubyumao/mcsmanager-web
 --platform=linux/arm64 githubyumao/mcsmanager-daemon
+--platform=linux/arm64 bigbeartechworld/big-bear-casaos-user-management
+--platform=linux/arm64 gethomepage/homepage
