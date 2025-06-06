@@ -12,3 +12,4 @@ nginx
 --platform=linux/arm64 louislam/uptime-kuma
 --platform=linux/arm64 mysql
 --platform=linux/arm64 php
+--platform=linux/arm64 huajijunqwq/meting-api
