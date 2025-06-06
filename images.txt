@@ -10,3 +10,5 @@ nginx
 --platform=linux/arm64 cp0204/casamod
 --platform=linux/arm64 cym1102/nginxwebui
 --platform=linux/arm64 louislam/uptime-kuma
+--platform=linux/arm64 mysql
+--platform=linux/arm64 php
