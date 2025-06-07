@@ -13,3 +13,8 @@ nginx
 --platform=linux/arm64 mysql
 --platform=linux/arm64 php
 --platform=linux/arm64 huajijunqwq/meting-api
+--platform=linux/arm64 amtoaer/bili-sync
+--platform=linux/arm64 adminer
+--platform=linux/arm64 mintplexlabs/anythingllm
+--platform=linux/arm64 adguard/adguardhome
+--platform=linux/arm64 privoce/vocechat-server
