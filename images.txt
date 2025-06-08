@@ -1,3 +1,4 @@
+--platform=linux/arm64 linwei5d/armbian:12
 nginx
 --platform=linux/arm64 rtedpro/proxmox:8.4.1-arm64
 --platform=linux/arm64 koishijs/koishi
