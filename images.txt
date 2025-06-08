@@ -1,4 +1,5 @@
 nginx
+--platform=linux/arm64 rtedpro/proxmox
 --platform=linux/arm64 koishijs/koishi
 --platform=linux/arm64 githubyumao/mcsmanager-web
 --platform=linux/arm64 githubyumao/mcsmanager-daemon
