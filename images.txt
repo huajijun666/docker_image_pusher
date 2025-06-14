@@ -21,3 +21,5 @@ nginx
 --platform=linux/arm64 mintplexlabs/anythingllm
 --platform=linux/arm64 adguard/adguardhome
 --platform=linux/arm64 privoce/vocechat-server
+--platform=linux/arm64 acuvity/acuvity-chatbot-ui
+--platform=linux/arm64 linuxserver/kali-linux
