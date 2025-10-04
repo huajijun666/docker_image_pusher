@@ -1,3 +1,4 @@
+--platform=linux/arm64 duan2001/npc
 --platform=linux/arm64 duan2001/nps
 --platform=linux/arm64 mzz2017/v2raya
 --platform=linux/arm64 mlikiowa/napcat-docker:latest
