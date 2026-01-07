@@ -1,3 +1,4 @@
+--platform=linux/arm64 neosmemo/memos
 --platform=linux/arm64 jc21/nginx-proxy-manager:latest
 --platform=linux/arm64 chishin/nginx-proxy-manager-zh:release
 --platform=linux/arm64 mlikiowa/napcat-docker:latest
