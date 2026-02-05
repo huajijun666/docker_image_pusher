@@ -1,3 +1,4 @@
+--platform=linux/amd64 koishijs/koishi
 --platform=linux/arm64 neosmemo/memos:stable
 --platform=linux/arm64 jc21/nginx-proxy-manager:latest
 --platform=linux/arm64 chishin/nginx-proxy-manager-zh:release
