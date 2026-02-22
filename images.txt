@@ -1,3 +1,5 @@
+--platform=linux/arm64 jc21/nginx-proxy-manager:latest
+--platform=linux/amd64 jc21/nginx-proxy-manager:latest
 --platform=linux/amd64 koishijs/koishi
 --platform=linux/amd64 postgres:18.1
 --platform=linux/arm64 koishijs/koishi
