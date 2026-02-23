@@ -1,4 +1,4 @@
---platform=linux/arm/v7 jc21/nginx-proxy-manager:latest
+--platform=linux/arm/v7 jc21/nginx-proxy-manager:2.13.7
 --platform=linux/arm64 jc21/nginx-proxy-manager:latest
 --platform=linux/amd64 jc21/nginx-proxy-manager:latest
 --platform=linux/amd64 koishijs/koishi
