@@ -1,3 +1,4 @@
+--platform=linux/arm64 b3log/siyuan:v3.7.3
 --platform=linux/arm/v7 louislam/uptime-kuma:2.4.0
 --platform=linux/arm64 louislam/uptime-kuma:2.4.0
 --platform=linux/arm64 cloudflare/cloudflared:latest
