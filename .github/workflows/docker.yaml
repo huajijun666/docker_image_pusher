@@ -17,7 +17,11 @@ jobs:
 
   build:
     name: Pull
-    runs-on: ubuntu-latest
+    # 固定 24.04：ubuntu-latest 已于 2026-11-19 完成向 Ubuntu 26.04 的迁移，
+    # 新镜像下 maximize-build-space 会把根分区压到几乎无剩余空间，
+    # 首个 docker pull 就把根分区写满，runner 报 No space left on device 直接崩掉。
+    # 参考失败运行：44883740642（2026-11-21）。
+    runs-on: ubuntu-24.04
     steps:
     - name: Before freeing up disk space
       run: |
@@ -108,7 +112,10 @@ jobs:
             fi
         
             echo "docker pull $line"
-            docker pull $line
+            if ! docker pull $line; then
+                echo "::error::docker pull failed: $line"
+                exit 1
+            fi
             platform=$(echo "$line" | awk -F'--platform[ =]' '{if (NF>1) print $2}' | awk '{print $1}')
             echo "platform is $platform"
             # 如果存在架构信息 将架构信息拼到镜像名称前面
@@ -143,7 +150,10 @@ jobs:
             echo "docker tag $image $new_image"
             docker tag $image $new_image
             echo "docker push $new_image"
-            docker push $new_image
+            if ! docker push $new_image; then
+                echo "::error::docker push failed: $new_image (source: $image)"
+                exit 1
+            fi
             echo "开始清理磁盘空间"
             echo "=============================================================================="
             df -hT
