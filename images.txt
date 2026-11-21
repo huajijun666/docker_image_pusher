@@ -1,3 +1,8 @@
+--platform=linux/amd64 agentscope/qwenpaw:latest
+--platform=linux/amd64 verdaccio/verdaccio
+--platform=linux/amd64 b3log/siyuan:v3.8.11
+--platform=linux/amd64 cloudflare/cloudflared:2026.11.1
+--platform=linux/amd64 openlistteam/openlist:latest
 --platform=linux/arm64 agentscope/qwenpaw:latest
 --platform=linux/arm64 jc21/nginx-proxy-manager:latest
 --platform=linux/arm64 verdaccio/verdaccio
